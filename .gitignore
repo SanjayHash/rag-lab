@@ -1,0 +1,28 @@
+
+# Python virtual environments
+venv/
+.venv/
+
+# Python generated files
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Logs
+*.log
+
+# Local PDF and test data
+data/*
+!data/.gitkeep
+
+# Model weights and checkpoints
+*.pt
+*.pth
+*.bin
+*.safetensors
